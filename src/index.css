@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600;700&family=Lexend:wght@500&family=Manrope:wght@500;700&family=Poppins:wght@300;400;500;600&family=Raleway:wght@600&family=Roboto:wght@500&display=swap");
+
+:root {
+  /* font-family: "Abril Fatface", serif; */
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Lexend', sans-serif; */
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  --color-footer: linear-gradient(263deg, #172458 0.01%, #191726 99.6%);
+  --color-bg: linear-gradient(102deg, #181623 0.73%, #17245b 99.5%);
+  --color-white: #fff;
+  --color-lightblack: #252525;
+  --color-black: #000;
+  --color-feature: #17245b;
+  --color-brand: #14121e;
+  --color-nav: #14121d;
+  --color-btn: #0030ff;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+}

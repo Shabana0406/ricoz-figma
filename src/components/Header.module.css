@@ -1,0 +1,56 @@
+.header {
+  background: var(--color-bg);
+  display: flex;
+  gap: 5rem;
+  padding: 3rem;
+}
+
+.headerText {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 11rem 0 11rem 8rem;
+  text-align: left;
+}
+
+.header h1 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5rem;
+  text-transform: capitalize;
+  margin-right: 5rem;
+}
+
+.header p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  margin-right: 13rem;
+}
+
+.btn {
+  padding-top: 2rem;
+}
+
+.headerImage {
+  padding-left: 3rem;
+}
+
+.headerImageBig {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.headerImageSmall {
+  padding-right: 30rem;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,63 @@
+.storyCard {
+  background: #f2f2f2;
+  border-radius: 1.8rem;
+}
+
+.storyHead {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.3rem;
+}
+
+.storyHead h3 {
+  color: #101010;
+  font-family: Poppins;
+  font-size: 1.34081rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.34081rem; /* 100% */
+}
+
+.storyHead h4 {
+  color: #4b5563;
+  font-family: Poppins;
+  font-size: 1.00556rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25138rem; /* 124.444% */
+  padding-top: 0.5rem;
+}
+
+.storyBody h2 {
+  color: #101010;
+  font-family: Poppins;
+  font-size: 1.78775rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.50281rem */
+  padding-top: 0;
+}
+
+.storyBody h2::before {
+  content: open-quote;
+}
+
+.storyBody h2::after {
+  content: close-quote;
+}
+
+.storyBody p {
+  color: #374151;
+  font-family: Poppins;
+  font-size: 0.89388rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.34081rem; /* 150% */
+  padding: 0 2rem;
+}
+
+.storyBody .ratings {
+  padding: 1rem 2rem;
+}

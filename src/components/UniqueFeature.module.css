@@ -1,0 +1,40 @@
+.featureSection {
+  background: var(--color-white);
+  padding: 3rem;
+}
+
+.featureHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-lightblack);
+  cursor: pointer;
+  margin: 1rem;
+}
+
+h2 {
+  padding: 2rem;
+  color: #252525;
+  font-family: Raleway;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.featureContainer {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.toolType {
+  padding-left: 2rem;
+}
+
+.toolType h3 {
+  color: #262626;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.toolType p {
+  color: #2a2a2a;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130.5%; /* 1.54969rem */
+  letter-spacing: 0.00594rem;
+  margin-left: 0;
+}

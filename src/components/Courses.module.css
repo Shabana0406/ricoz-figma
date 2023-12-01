@@ -1,0 +1,43 @@
+.courseSection {
+  padding: 3rem 5rem;
+}
+
+.courseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6rem;
+  margin-right: 4rem;
+}
+
+.courseHeader .btn {
+  margin-right: 2rem;
+}
+
+.courseHeaderText h2 {
+  color: var(--color-black);
+  font-family: Raleway;
+  font-size: 2.8735rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.44594rem; /* 119.922% */
+  padding-bottom: 0.5rem;
+}
+
+.courseHeaderText p {
+  color: var(--color-black);
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 2rem;
+}

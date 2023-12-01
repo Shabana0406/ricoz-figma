@@ -1,0 +1,10 @@
+.nav {
+  background-color: var(--color-nav);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  font-weight: 500;
+}

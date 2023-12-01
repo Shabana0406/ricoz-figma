@@ -1,0 +1,41 @@
+.feature {
+  background: var(--color-feature);
+  border-radius: 2.3rem;
+  width: 25rem;
+  height: 28rem;
+  padding: 2rem 2rem 2.5rem 2.5rem;
+}
+
+.featureImage {
+  padding: 2rem 0;
+}
+
+h3 {
+  color: var(--color-white);
+  font-family: Raleway;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--color-white);
+  font-family: Poppins;
+  font-size: 1.4055rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 1rem;
+}
+
+.featureIconContainer {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #b7d5e5;
+}

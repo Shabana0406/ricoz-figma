@@ -1,0 +1,31 @@
+.toolSection {
+  padding: 2rem 5rem 4rem 5rem;
+}
+
+.toolSection h2 {
+  color: var(--color-black);
+  font-family: Raleway;
+  font-size: 2.8735rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.44594rem; /* 119.922% */
+}
+
+.toolContainer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 4rem;
+  background-color: #f2f2f4;
+  padding: 4rem 12rem;
+}
+
+.toolContainer .ellipse {
+  grid-row: span 2;
+  padding-top: 5rem;
+}
+
+.toolSection .btnTool {
+  text-align: center;
+  padding: 2rem 0;
+}

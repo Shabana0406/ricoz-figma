@@ -1,0 +1,12 @@
+.input {
+  padding: 1rem 0 1.5rem 0;
+}
+
+.input h3 {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

@@ -1,0 +1,25 @@
+.contactVia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactVia span {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactVia .container {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}

@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-shrink: 0;
+}
+
+.menu a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+}

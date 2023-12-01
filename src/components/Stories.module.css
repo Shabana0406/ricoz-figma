@@ -1,0 +1,22 @@
+.storySection {
+  background: var(--color-brand);
+  padding: 3rem 2rem 6rem 2rem;
+}
+
+.storySection .headline {
+  color: var(--color-white);
+  font-family: Raleway;
+  font-size: 2.8735rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.44594rem; /* 119.922% */
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 5rem;
+}
