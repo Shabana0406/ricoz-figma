@@ -6,6 +6,7 @@ import ContactVia from "./ContactVia";
 import telephone from "../assets/telephone.png";
 import gmail from "../assets/gmail.png";
 import insta from "../assets/insta.png";
+import Line from "../ui/Line";
 
 function Contact() {
   return (
@@ -35,7 +36,7 @@ function Contact() {
       </div>
 
       <div className={styles.contactThrough}>
-        <Input width="1900" />
+        <Line />
         <div className={styles.contactIcon}>
           <ContactVia src={telephone} text="+91-7011112666" />
           <ContactVia src={gmail} text="info@Ricoz.in " />

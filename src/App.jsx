@@ -1,6 +1,7 @@
 import "./App.css";
 import Contact from "./components/Contact";
 import Courses from "./components/Courses";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Media from "./components/Media";
 import Navbar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
       <Stories />
       <Tools />
       <Contact />
+      <Footer />
     </div>
   );
 }
