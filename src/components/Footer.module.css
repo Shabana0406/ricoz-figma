@@ -1,0 +1,111 @@
+.footer {
+  padding: 4rem 7rem;
+  background: var(--color-footer);
+}
+
+.footerSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7rem;
+}
+
+.footerSection .items h2 {
+  color: var(--color-white);
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 0;
+}
+
+.footerSection .items p {
+  color: var(--color-white);
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding-top: 0;
+}
+
+.footerSection .items .footerIcon {
+  padding-top: 2rem;
+}
+
+.footerIcon span {
+  margin-right: 0.3rem;
+}
+
+.subscribe h2 {
+  color: var(--color-white);
+  font-family: Lexend;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.inputGroup {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.search {
+  padding: 1rem 0.5rem 0.5rem 0.9rem;
+}
+
+.searchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input {
+  font-weight: 400;
+  border: 0;
+  background: var(--color-footer);
+}
+
+.input::placeholder {
+  color: var(--color-white);
+  font-family: Roboto;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.99694rem; /* 106.341% */
+}
+
+.arrowIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-lightblack);
+  cursor: pointer;
+}
+
+.end {
+  margin: 3rem 0;
+}
+
+.end h4 {
+  color: var(--color-white);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: -0.02rem;
+  padding: 1rem 0;
+}
